@@ -12,6 +12,17 @@
     font-size: 16px;
 }
 
+.title {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.paragraph {
+    font-size: 14px;
+    line-height: 1.2rem;
+    margin-bottom: 15px;
+}
+
 /* Header Area */
 
 header {
@@ -41,13 +52,33 @@ header {
     margin-bottom: 15px;
 }
 
-.paragraph {
+.header-paragraph {
     text-align: right;
-    margin-bottom: 15px;
-    font-size: 15px;
-    line-height: 1.5rem;
 }
 
 .header-btn {
     margin-left: 251px;
+}
+
+/* Main Area */
+
+main {
+    width: 80%;
+    height: 70vh;
+    margin: auto;
+    padding: 120px 0;
+}
+
+.main-container-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-img {
+    width: 450px;
+}
+
+.main-paragraph {
+    padding-top: 120px;
 }
